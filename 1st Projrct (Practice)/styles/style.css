@@ -9,8 +9,6 @@ body{
     width: 100vw;
     background-color: #c6edfd;
     font-family: 'Poppins', sans-serif;
-    /* display: flex;
-    justify-content: center; */
     flex-direction: column;
 }
 /* CSS for Navigation Bar */
