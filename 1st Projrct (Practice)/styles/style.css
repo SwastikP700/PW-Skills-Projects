@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #c6edfd;
+    font-family: 'Poppins', sans-serif;
+    /* display: flex;
+    justify-content: center; */
+    flex-direction: column;
+}
+/* CSS for Navigation Bar */
+nav{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.options ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo h1{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.options ul li{
+    text-transform: uppercase;
+}
+.options ul li a{
+    text-decoration: none;
+    color: #1d1d1d;
+    transition: 0.2s;
+}
+.options ul li a:hover{
+    color: #005a7d;
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: 600;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+input{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 8px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border: 2px solid #005a7d;
+    border-radius: 3px;
+}
+.search-btn{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 14px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-right: 14px;
+    color: #ffffff;
+    background-color: #005a7d;
+    border: 2px solid #ffffff;
+    transition: 0.3s;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.search-btn:hover{
+    color: #005a7d;
+    background-color: #ffffff;
+    border: 2px solid #005a7d;
+    cursor: pointer;
+}
+
+/* CSS for section  */
+.main{
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.main-left{
+    margin-right: 100px;
+    padding-top: 70px;
+    
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    flex-direction: column;
+}
+.main-right{
+    margin-right: 0px;
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    flex-direction: column;
+}
+.avtar img{
+    height: 300px;
+    width: 300px;
+}
+.Chat{
+    align-self: center;
+}
+.Chat button{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-color: #005a7d;
+    border: 2px solid #ffffff;
+    padding-left: 14px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-right: 14px;
+    transition: 0.3s;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.Chat button:hover{
+    color: #005a7d;
+    background-color: #ffffff;
+    border: 2px solid #005a7d;
+    cursor: pointer;
+}
+.nm{
+    font-weight: 600;
+    font-size: 20px;
+}
+.prof{
+    font-weight: bolder;
+    font-size: 40px;
+    color: #005a7d;
+    background-color: #bbcccd;
+}
+span{
+    color: #006f9a;
+    font-weight: bold;
+}
+/* CSS for footer */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 16px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    gap: 180px;
+}
+.socials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+.conc{
+    align-self: center;
+}
+.socials ul{
+    display: flex;
+    text-decoration: none;
+    gap: 12px;
+    padding-top: 4px;
+}
