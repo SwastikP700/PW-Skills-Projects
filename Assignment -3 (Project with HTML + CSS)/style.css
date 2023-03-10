@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+nav{
+    display: flex;
+    background-color: #000;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.logo{
+    margin-left: 35px;
+}
+.logo img{
+    height: 35px;
+    width: 108px;
+}
+.line{
+    width: 1px;
+    height: 30px;
+    background-color: #fff;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.options{
+    flex-grow: 1;
+}
+.options ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+    font-size: 15px;
+}
+.options ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s;
+}
+.options ul li a:hover{
+    text-decoration: underline;
+    font-size: 16.5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn button{
+    margin-right: 35px;
+    background-color: #ba0cc5;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 7px 17px;
+    border: 1px solid #ba0cc5;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.btn button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #ba0cc5;
+}
+
+main{
+    background-image: url("./assets/bg_1.png");
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 91.5vh; */
+    height: 464px;
+    text-align: center;
+}
+
+
+.heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 80px;
+}
+.des{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Genos', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 25px;
+}
+.bar{
+    width: 1px;
+    height: 30px;
+    background-color: #ffffff;
+    margin-left: 25px;
+    margin-right: 24px;
+}
+.btn2 button{
+    background-color: #ba0cc5;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 25px;
+    border: 2px solid #ba0cc5;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.btn2 button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #ba0cc5;
+}
