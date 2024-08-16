@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e4279;
+    height: 100vh;
+    color: white;
+}
+
+#my-image {
+    font-size: 55px;
+    margin: 10px;
+}
