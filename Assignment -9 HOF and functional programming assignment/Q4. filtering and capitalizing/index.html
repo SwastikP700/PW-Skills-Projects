@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Filter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Filter</h1>
+        <form id="bookForm">
+            <div class="input-group">
+                <label for="title">Book Title:</label>
+                <input type="text" id="title" required>
+            </div>
+            <div class="input-group">
+                <label for="author">Author:</label>
+                <input type="text" id="author" required>
+            </div>
+            <div class="input-group">
+                <label for="year">Publication Year:</label>
+                <input type="number" id="year" required>
+            </div>
+            <button type="submit">Add Book</button>
+        </form>
+
+        <div class="books-section">
+            <h2>All Books</h2>
+            <ul id="allBooks"></ul>
+        </div>
+
+        <div class="books-section">
+            <h2>Filtered Books (Published Before 2010)</h2>
+            <ul id="filteredBooks"></ul>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
